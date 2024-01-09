@@ -1,0 +1,289 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px 70px;
+    margin-left: 120px;
+}
+
+.headerlogo img{
+    width: 60%;
+}
+
+nav a{
+    
+    text-decoration: none;
+    color: #000;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 16px;
+}
+
+nav span{
+    text-decoration: underline;
+    text-decoration-color: #FFBF23;
+}
+
+.main1background img{
+    max-width: 100%;
+    max-height: 10%;
+}
+
+.main1{
+  position:relative;
+
+}
+
+.main1content{
+    position: absolute;
+    top: 198px;
+    left: 120px;
+}
+
+.main1content h3{
+    color: #000;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.main1content button{
+    display: flex;
+    padding: 14.5px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background-color: #FFBF23;
+    border: none;
+    margin-top: 50px;
+}
+
+.main2head{
+    margin-left: 120px;
+    margin-top: 64px;
+    margin-bottom: 56px;
+}
+
+.main2head h3{
+    color: #000;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.main2nav {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.main2nav button{
+    display: flex;
+    padding: 14.5px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    border: none;
+    border-radius: 8px;
+}
+
+.main2nav span{
+    background-color: #FFBF23;
+    border-radius: 8px;
+}
+
+.main2articles{
+    margin-right: 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 60px;
+    gap: 30px;
+    font-family: 'Clash Grotesk', sans-serif;
+    margin-left: 120px;
+}
+
+
+.main2articles h3{
+    color: #313131;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.main2articles p{
+    font-size: 16px;
+}
+
+.main3{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 104px;
+    
+}
+
+.main3content {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   margin-left: 120px;
+}
+
+.main3text{
+    position: absolute;
+    top: 50px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+}
+
+.main4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 104px;
+    flex-direction: column;
+    margin-left: 120px;
+}
+
+.main4 h3{
+    color: #313131;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 25px;
+}
+
+.cardreads{
+    color: #FFF;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Clash Grotesk', sans-serif;
+    margin-top: 45px;
+    margin-left: 120px;
+}
+
+.cardreads h3{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cardreads h4{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card1{
+   
+    position: relative;
+}
+
+.card1content{
+    position: absolute;
+    top: 74px;
+    bottom: 74px;
+    left: 24px;
+    right: 24px;
+}
+
+.card2{
+   
+    position: relative;
+}
+
+.card2content{
+    position: absolute;
+    top: 74px;
+    bottom: 74px;
+    left: 24px;
+    right: 24px;
+}
+
+.card3{
+   
+    position: relative;
+}
+
+.card3content{
+    position: absolute;
+    top: 74px;
+    bottom: 74px;
+    left: 24px;
+    right: 24px;
+}
+
+footer {
+    background-color: #1E1E1E;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 120px;
+    padding-right: 84px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.rightfooter{
+    padding-right: 5px;
+    margin-left: 300px;
+}
+
+.rightfooter p{
+    color: #FFF;
+    font-family: 'Clash Grotesk', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.socials{
+    margin-left: 255px;
+    margin-top: 24px;
+}
